@@ -3,7 +3,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          ShopKart
+          <h2><b><i>ShopKart</i></b></h2>
         </a>
         <button
           className="navbar-toggler"
@@ -27,9 +27,6 @@ export const Navbar = () => {
               <a className="nav-link" href="#">
                 Link
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
             </li>
           </ul>
           <form className="d-flex" role="search">

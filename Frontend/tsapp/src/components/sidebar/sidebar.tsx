@@ -20,16 +20,16 @@ export const Sidebar = () => {
         <div className="row">
           <ul className="row col">
             <li className="list-text active">
-              <a href="#"> Home </a>
+              <a href="#" className="border-bottom border-white"><h5> Home </h5> </a>
             </li>
             <li className="list-text">
-              <a href="#"> Dashboard </a>
+              <a href="#"><h5> Dashboard </h5></a>
             </li>
             <li className="list-text">
-              <a href="#"> Analytics </a>
+              <a href="#"><h5> Analytics </h5></a>
             </li>
             <li className="list-text">
-              <a href="#"> About US </a>
+              <a href="#"><h5> About US </h5></a>
             </li>
           </ul>
         </div>
